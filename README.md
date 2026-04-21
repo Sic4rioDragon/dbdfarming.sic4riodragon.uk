@@ -1,38 +1,31 @@
 # dbdfarming.sic4riodragon.uk
 
-Static site for `https://dbdfarming.sic4riodragon.uk/`.
+Simple static site for https://dbdfarming.sic4riodragon.uk/
 
-## What this site is for
+Made to explain the main DBD farming styles and point people toward the actual resources.
 
-This site is meant to be a simple public guide for Dead by Daylight farming topics such as:
+## Main pages
 
-- bloodpoint farming
+- home page
 - organized farming
 - Asian farming
-- XP farming
 - grade farming
-- later: questing / achievement hunting
+- FAQ
 
-The main goal is to point people toward the actual page and useful public resources, while keeping the site easy to read and easy to update.
+## Main focus
 
-## Main public resources linked
+The main focus of the site is organized farming.
 
-- Bloodpoint Farming Discord
-- Bloodpoint Farming public embeds repo
-- public spreadsheet / build resources
-- public video links where relevant
+## Credits / sources
 
-## Notes
+Main credit goes to the Bloodpoint Farming community:
+- Discord: https://discord.gg/bloodpoints
+- Public embeds repo: https://github.com/Bloodpoint-Farming/bloodpoint-farming-embeds
+- Spreadsheet: https://docs.google.com/spreadsheets/d/1m8dF9RnTeqlnLyb1HZAu08hv-mk8POK-2rZU05r8400/
 
-This site should mainly:
-- explain things in a short and readable way
-- link to the actual farming resources
-- avoid reposting private/internal content
-- keep organized farming as the main highlighted option
+I have farmed with them since I started playing DBD.
 
-## Pages
+## Goal of the site
 
-- `index.html`
-- `organized-farming.html`
-- `asian-farming.html`
-- `grade-farming.html`
+Keep it simple, readable, and useful.
+Give people enough info to understand the basics, then link them to the proper resources.
