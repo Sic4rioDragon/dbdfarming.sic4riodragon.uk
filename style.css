@@ -260,3 +260,129 @@ strong {
     font-size: 21px;
   }
 }
+/* Achievement pages */
+
+.section-heading {
+  margin-top: 8px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.method-card {
+  min-width: 0;
+}
+
+.method-card-wide {
+  grid-column: 1 / -1;
+}
+
+.method-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.method-top h2 {
+  margin-bottom: 0;
+}
+
+.status-badge {
+  flex: 0 0 auto;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.status-badge.confirmed {
+  background: rgba(66, 190, 120, 0.14);
+  border: 1px solid rgba(66, 190, 120, 0.26);
+  color: #a8ecc5;
+}
+
+.status-badge.testing {
+  background: rgba(230, 172, 66, 0.13);
+  border: 1px solid rgba(230, 172, 66, 0.25);
+  color: #f0d39b;
+}
+
+.method-goal {
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.method-build,
+.method-achievements {
+  margin: 10px 0;
+  padding: 9px 11px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+
+.method-note {
+  margin-top: 12px;
+  padding: 9px 11px;
+  border-left: 3px solid var(--blue-strong);
+  background: rgba(46, 143, 255, 0.07);
+  border-radius: 8px;
+  color: var(--muted);
+}
+
+.method-steps {
+  margin: 12px 0 4px;
+  padding-left: 22px;
+}
+
+.method-steps li + li {
+  margin-top: 6px;
+}
+
+details {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+details[open] summary {
+  margin-bottom: 8px;
+}
+
+.testing-banner {
+  border-color: rgba(230, 172, 66, 0.25);
+}
+
+@media (max-width: 760px) {
+  .method-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .method-card-wide {
+    grid-column: auto;
+  }
+
+  .method-top {
+    align-items: center;
+  }
+}

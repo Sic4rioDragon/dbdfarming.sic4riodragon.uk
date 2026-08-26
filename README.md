@@ -1,31 +1,32 @@
 # dbdfarming.sic4riodragon.uk
 
-Simple static site for https://dbdfarming.sic4riodragon.uk/
+Website for https://dbdfarming.sic4riodragon.uk/
 
-Made to explain the main DBD farming styles and point people toward the actual resources.
+DBD farming guides, methods and resources.
 
-## Main pages
+## Pages
 
-- home page
-- organized farming
+- Organized farming
 - Asian farming
-- grade farming
+- Grade farming
+- Achievement hunting
+- Achievement methods to test
 - FAQ
 
-## Main focus
+## Achievement hunting
 
-The main focus of the site is organized farming.
+The main achievement page only contains methods we have actually tested.
+
+Ideas that should work but have not been confirmed yet stay on the separate testing page until we try them.
 
 ## Credits / sources
 
-Main credit goes to the Bloodpoint Farming community:
+A lot of the organized farming info and methods come from the Bloodpoint Farming community.
+
 - Discord: https://discord.gg/bloodpoints
-- Public embeds repo: https://github.com/Bloodpoint-Farming/bloodpoint-farming-embeds
+- Public repo: https://github.com/Bloodpoint-Farming/bloodpoint-farming-embeds
 - Spreadsheet: https://docs.google.com/spreadsheets/d/1m8dF9RnTeqlnLyb1HZAu08hv-mk8POK-2rZU05r8400/
 
-I have farmed with them since I started playing DBD.
+Current achievement requirements can also be checked on the Dead by Daylight Wiki:
 
-## Goal of the site
-
-Keep it simple, readable, and useful.
-Give people enough info to understand the basics, then link them to the proper resources.
+https://deadbydaylight.wiki.gg/wiki/Achievements
