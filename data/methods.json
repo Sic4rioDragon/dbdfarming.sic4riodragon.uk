@@ -1,0 +1,766 @@
+{
+  "witness-to-heresy-build": {
+    "name": "Witness to Heresy build",
+    "side": "killer",
+    "featured": true,
+    "achievementIds": [
+      "witness-to-heresy"
+    ],
+    "summary": "Use constant Obsession swaps and extra aura reads instead of waiting on Celestial Witness alone.",
+    "killerPerks": [
+      "Celestial Witness",
+      "Lethal Pursuer",
+      "Friends 'Til the End",
+      "Nemesis"
+    ],
+    "steps": [
+      "Run the four-perk build.",
+      "Use Nemesis and Friends 'Til the End to keep moving the Obsession around while Celestial Witness gives more reads.",
+      "Keep the match going until the 300 seconds are finished."
+    ],
+    "notes": [
+      "This is one of the methods we already use."
+    ]
+  },
+  "dream-demon-shack-loop": {
+    "name": "Dream Demon shack loop",
+    "side": "killer",
+    "featured": true,
+    "achievementIds": [
+      "dream-demon"
+    ],
+    "summary": "Use the shack gen and fake-pallet wake/sleep loop to keep pulling Survivors back into the Dream World.",
+    "survivorPerks": [
+      "Deadline"
+    ],
+    "steps": [
+      "Go to the shack Generator and set the four Survivors up around it.",
+      "The Survivor closest to the pallet can stay seated while the others move toward them to get pulled into the Dream World.",
+      "Once Survivors are out of the Dream World, The Nightmare keeps spawning fake pallets and triggering/exploding them so the loop can start again.",
+      "Repeat until the achievement is done."
+    ],
+    "notes": [
+      "A video walkthrough can be added later. The current loop is faster and more optimised than older showcase videos."
+    ]
+  },
+  "trapper-two-trap-loop": {
+    "name": "Trapper two-trap loop",
+    "side": "killer",
+    "featured": true,
+    "achievementIds": [
+      "cripple-them-all",
+      "cutting-out"
+    ],
+    "summary": "One Survivor and two traps are enough to repeatedly get direct trap pickups.",
+    "killerAddons": [
+      "Fastening Tools",
+      "Trapper Gloves"
+    ],
+    "steps": [
+      "Set two Bear Traps.",
+      "The Survivor walks into one trap.",
+      "Pick them directly out of the trap.",
+      "While carrying them, walk into the second open trap so the Survivor gets dropped/free.",
+      "Reset and repeat, always keeping one open trap ready for yourself."
+    ],
+    "variants": [
+      {
+        "name": "Iridescent Stone + Trapper Sack",
+        "text": "You can gamble on traps reopening themselves. Put 3-4 traps on the floor so there is a better chance one is ready for the next loop.",
+        "needsCheck": false
+      },
+      {
+        "name": "Cutting Out add-on",
+        "text": "If a Survivor still needs Cutting Out, occasionally skip the self-trap drop and let them wiggle free instead.",
+        "needsCheck": true
+      }
+    ],
+    "notes": [
+      "Do not hit the trapped Survivor; the achievement progress comes from grabbing them directly out of the trap."
+    ]
+  },
+  "not-today-facecamp": {
+    "name": "Not Today facecamp loop",
+    "side": "survivor",
+    "featured": true,
+    "achievementIds": [
+      "not-today"
+    ],
+    "summary": "Use the anti-camp self-unhook instead of relying on luck.",
+    "steps": [
+      "Have the Killer facecamp the hooked Survivor.",
+      "Let the anti-camp meter fill.",
+      "Self-unhook when available.",
+      "Repeat over more matches until finished."
+    ],
+    "notes": [
+      "Confirmed method. Shoulder the Burden does not help the actual self-unhook count."
+    ]
+  },
+  "skilled-huntress-boon-range": {
+    "name": "Skilled Huntress boon-range farm",
+    "side": "killer",
+    "featured": true,
+    "achievementIds": [
+      "skilled-huntress",
+      "close-shave"
+    ],
+    "summary": "Use a 24m boon radius as an easy in-game distance marker for the hatchet downs.",
+    "survivorPerks": [
+      "Any boon with a 24m radius"
+    ],
+    "steps": [
+      "Set up the boon.",
+      "Survivors stand around the outside edge of the boon radius.",
+      "Huntress stands beside a locker at the correct distance and downs them with hatchets.",
+      "Heal everyone and repeat."
+    ],
+    "variants": [
+      {
+        "name": "Close Shave variant",
+        "text": "Before landing the real hatchet, throw close misses around the Survivor. If the game counts them as dodged projectiles, the Survivor can work on Close Shave at the same time.",
+        "needsCheck": true
+      }
+    ],
+    "notes": [
+      "Standing beside a locker keeps hatchet refills quick."
+    ]
+  },
+  "fleet-of-foot-loop": {
+    "name": "Fleet of Foot speed loop",
+    "side": "survivor",
+    "featured": true,
+    "achievementIds": [
+      "fleet-of-foot"
+    ],
+    "summary": "Babysitter is the clean recommendation; Dark Theory also works but can track inconsistently.",
+    "survivorPerks": [
+      "Babysitter",
+      "Boon: Dark Theory",
+      "Shoulder the Burden (optional)"
+    ],
+    "steps": [
+      "With Babysitter, rotate safe unhooks to give the Haste effect.",
+      "With Dark Theory, have Survivors walk out of the boon and only re-enter once the previous speed boost is fully gone.",
+      "Repeat until the achievement finishes."
+    ],
+    "notes": [
+      "Dark Theory works, but you may end up needing far more activations than the listed 50. Shoulder the Burden can give the achievement hunter another useful unhook."
+    ]
+  },
+  "path-to-salvation-loop": {
+    "name": "Path to Salvation gen/heal loop",
+    "side": "survivor",
+    "featured": true,
+    "achievementIds": [
+      "path-to-salvation"
+    ],
+    "summary": "Pre-heal, pop the Generator, then finish the heal immediately.",
+    "steps": [
+      "Take a hit.",
+      "Self-Care or have someone heal you to around 90% or more.",
+      "Finish a Generator.",
+      "Have one or two Survivors immediately finish your heal.",
+      "Repeat on the next Generator."
+    ],
+    "notes": [
+      "This can be worked into a normal organised farm without much extra time."
+    ]
+  },
+  "bless-you-loop": {
+    "name": "Bless You pallet / Hex loop",
+    "side": "both",
+    "featured": true,
+    "achievementIds": [
+      "bless-you",
+      "hero-of-wallachia"
+    ],
+    "summary": "Force the same remaining Totem to become Hex: Two Can Play over and over, bless it, snuff it and reset the pallet.",
+    "killerPerks": [
+      "Hex: Two Can Play"
+    ],
+    "survivorPerks": [
+      "Any boon perk",
+      "Any Means Necessary"
+    ],
+    "steps": [
+      "Cleanse every Totem except one dull Totem next to a pallet.",
+      "Stun the Killer once.",
+      "The Bless You player starts blessing the remaining Totem.",
+      "At about 80% blessing progress, stun the Killer again so Two Can Play activates with almost no wasted time.",
+      "Finish the blessing so it counts as blessing a Hex.",
+      "The Killer snuffs the boon.",
+      "Reset the pallet with Any Means Necessary.",
+      "Repeat."
+    ],
+    "variants": [
+      {
+        "name": "Hero of Wallachia stack",
+        "text": "If the achievement hunter holds the right item while doing the pallet stuns, this loop can also be used for Hero of Wallachia.",
+        "needsCheck": false
+      }
+    ],
+    "notes": [
+      "The snuff step matters. If the Killer does not snuff the boon, the loop does not reset cleanly."
+    ]
+  },
+  "survivor-adept-farm": {
+    "name": "Survivor Adept farm",
+    "side": "survivor",
+    "featured": true,
+    "achievementIds": [
+      "survivor-adept"
+    ],
+    "summary": "Use the required three unique perks, then either finish the game normally or make the Adept player the hatch escape.",
+    "steps": [
+      "The Adept player brings only that Survivor's three Unique Perks.",
+      "Either complete all Generators and let them escape, or have the Killer 3K and give that Survivor hatch."
+    ],
+    "notes": [
+      "Tell the group first because the Adept player cannot use the usual farming loadout."
+    ]
+  },
+  "killer-adept-farm": {
+    "name": "Killer Adept farm",
+    "side": "killer",
+    "featured": true,
+    "achievementIds": [
+      "killer-adept"
+    ],
+    "summary": "Use only the Killer's three unique perks and finish with a fast 4K.",
+    "steps": [
+      "Bring only that Killer's three Unique Perks.",
+      "Do any other power achievement you want first if it does not require extra Killer perks.",
+      "For a fast finish, have all four Survivors die in basement."
+    ],
+    "notes": [
+      "Add-ons are fine; the Adept restriction is the Killer perk loadout."
+    ]
+  },
+  "carry-farm": {
+    "name": "Carry achievement farm",
+    "side": "both",
+    "featured": false,
+    "achievementIds": [
+      "bodyguard",
+      "heavy-burden",
+      "multi-tasker",
+      "cutting-out"
+    ],
+    "summary": "Keep one Survivor carried while the rest rotate hits and fast heals around the Killer.",
+    "killerPerks": [
+      "Agitation (recommended)"
+    ],
+    "survivorPerks": [
+      "Reactive Healing on EVERY Survivor",
+      "Boon: Circle of Healing on one Survivor",
+      "Leader on one Survivor",
+      "Botany Knowledge / other healing speed perks spread around the team"
+    ],
+    "steps": [
+      "Down Survivor A and pick them up.",
+      "Survivors B, C and D rotate taking protection hits while A is carried.",
+      "Everyone should have Reactive Healing so nearby hits help the whole reset loop.",
+      "Use Circle of Healing, Botany Knowledge and one Leader to heal everyone back up quickly.",
+      "For Multi-tasker, let an already injured Survivor get downed while A is still being carried.",
+      "When Cutting Out is needed, stop the hit loop and let A wiggle free.",
+      "Reset and repeat."
+    ],
+    "notes": [
+      "Only one Survivor needs Leader. Agitation is more useful here than Mad Grit because everyone is cooperating and it helps reposition the carry faster."
+    ]
+  },
+  "hag-trap-farm": {
+    "name": "Hag two-trap teleport farm",
+    "side": "killer",
+    "featured": false,
+    "achievementIds": [
+      "triggered",
+      "even-punishment"
+    ],
+    "summary": "Rotate between two Phantasm Traps so one Survivor can trigger them almost nonstop.",
+    "steps": [
+      "Place Trap A and Trap B close enough to rotate between.",
+      "The Survivor triggers A and then moves into B.",
+      "Teleport to A and replace it.",
+      "Teleport to B and replace it.",
+      "The Survivor loops back into A and keeps alternating.",
+      "Repeat until Triggered is done."
+    ],
+    "notes": [
+      "For Even Punishment, first have each of the four Survivors trigger a trap and take one hit after the teleport. Then one Survivor can stay for the long Triggered grind."
+    ]
+  },
+  "doctor-shock-farm": {
+    "name": "Doctor shock farm",
+    "side": "killer",
+    "featured": false,
+    "achievementIds": [
+      "mad-house",
+      "shocking-treatment"
+    ],
+    "summary": "Group all four Survivors and hit as many of them as possible with every Shock Therapy.",
+    "killerAddons": [
+      "Discipline add-ons (recommended for the faster Shock Therapy detonation)"
+    ],
+    "steps": [
+      "Have all four Survivors stand tightly grouped.",
+      "Shock the whole group until everybody reaches Madness Tier III for Mad House.",
+      "Keep them grouped and continue hitting as many Survivors as possible per Shock Therapy.",
+      "Have Survivors Snap Out of It when needed and keep repeating."
+    ],
+    "notes": [
+      "The point is to make every Shock Therapy hit multiple people instead of grinding 500 one at a time."
+    ]
+  },
+  "wraith-jump-scare-farm": {
+    "name": "Wraith Surprise Attack farm",
+    "side": "killer",
+    "featured": false,
+    "achievementIds": [
+      "jump-scares"
+    ],
+    "summary": "Alternate uncloaking hits between Survivors while the team resets the damage quickly.",
+    "survivorPerks": [
+      "Reactive Healing on EVERY Survivor",
+      "Boon: Circle of Healing",
+      "Botany Knowledge",
+      "Leader on one Survivor"
+    ],
+    "steps": [
+      "Set up a healing area.",
+      "Wraith cloaks, uncloaks directly beside a Survivor and lands the Surprise Attack.",
+      "The team heals that Survivor while Wraith recloaks.",
+      "Rotate targets and repeat."
+    ],
+    "notes": [
+      "Uncloaking-speed add-ons can make the loop less boring."
+    ]
+  },
+  "ghostface-mark-farm": {
+    "name": "Ghost Face Mark farm",
+    "side": "killer",
+    "featured": false,
+    "achievementIds": [
+      "totally-vulnerable"
+    ],
+    "summary": "Mark, down, reset the Survivor, then repeat without anyone revealing Ghost Face.",
+    "survivorPerks": [
+      "Reactive Healing on EVERY Survivor",
+      "Boon: Circle of Healing",
+      "Botany Knowledge",
+      "Leader on one Survivor"
+    ],
+    "steps": [
+      "Pick one Survivor with a clean sightline.",
+      "Ghost Face stalks them until Marked.",
+      "Down them.",
+      "The other Survivors pick/heal them back up.",
+      "Rotate targets and repeat."
+    ],
+    "notes": [
+      "Nobody should reveal Ghost Face on purpose during the loop."
+    ]
+  },
+  "triage-station": {
+    "name": "Triage healing station",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "triage"
+    ],
+    "summary": "The achievement hunter stays put while the injured Survivor travels back to them for each heal.",
+    "survivorPerks": [
+      "Reactive Healing on EVERY Survivor",
+      "Boon: Circle of Healing",
+      "Botany Knowledge",
+      "Leader on one Survivor",
+      "Empathic Connection (optional)"
+    ],
+    "steps": [
+      "Set up a healing station.",
+      "The achievement hunter stays in that small area.",
+      "A partner goes more than 16m away and gets hit.",
+      "The injured partner comes back to the achievement hunter.",
+      "Heal them without the achievement hunter travelling far.",
+      "Repeat."
+    ],
+    "notes": [
+      "The injured person should come to the healer, not the other way around."
+    ]
+  },
+  "healing-achievement-farm": {
+    "name": "Healing achievement farm",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "healthy-obsession",
+      "resurgence-achievement",
+      "medic",
+      "second-act"
+    ],
+    "summary": "Keep multiple Survivors injured and repeatedly heal the Obsession while Reactive Healing speeds up every reset.",
+    "killerPerks": [
+      "Nemesis (easy Obsession setup)"
+    ],
+    "survivorPerks": [
+      "Reactive Healing on EVERY Survivor",
+      "Boon: Circle of Healing",
+      "Botany Knowledge",
+      "Leader on one Survivor"
+    ],
+    "steps": [
+      "Use Nemesis to make the achievement target the Obsession with a pallet stun.",
+      "Keep at least three Survivors injured/downed/hooked for Resurgence progress.",
+      "Repeatedly injure and heal the Obsession for Healthy Obsession and Medic.",
+      "For Second Act, down the achievement hunter and have someone recover them from Dying State before resetting."
+    ],
+    "notes": [
+      "Everyone having Reactive Healing is the base of the healing build. Only one Survivor needs Leader."
+    ]
+  },
+  "aura-farm": {
+    "name": "Killer aura farm",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "honour-the-bloodline",
+      "lifting-the-fog"
+    ],
+    "summary": "Use Still Sight with a cooperating Killer for easy continuous aura reading.",
+    "survivorPerks": [
+      "Still Sight",
+      "Eyes of Belmont (optional)",
+      "Fogwise + Deadline (backup option)"
+    ],
+    "steps": [
+      "Have the Killer stand inside Still Sight range.",
+      "Stand still until the Killer aura is revealed.",
+      "For Honour the Bloodline, simply keep the reveal going long enough.",
+      "For Lifting the Fog, move briefly to turn Still Sight off, stand still again, and repeat the reveal cycle."
+    ],
+    "variants": [
+      {
+        "name": "Lifting the Fog reactivation count",
+        "text": "Check that every Still Sight reactivation counts as a new aura reveal. If not, switch to Fogwise + Deadline and farm Great Skill Checks while injured.",
+        "needsCheck": true
+      }
+    ]
+  },
+  "working-overtime-farm": {
+    "name": "Working Overtime slow-gen farm",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "working-overtime"
+    ],
+    "summary": "This is one of the rare farms where you deliberately keep Generators alive instead of finishing quickly.",
+    "steps": [
+      "Designate one Survivor as the achievement hunter.",
+      "Do not give them repair-speed perks or a toolbox.",
+      "Let them spend most of the match repairing while the Killer repeatedly damages different Generators.",
+      "Once they have enough repair time, finish the match normally."
+    ],
+    "notes": [
+      "Normal organised farming can be too fast for this one, so the group has to deliberately slow the Generator phase down."
+    ]
+  },
+  "generalist-farm": {
+    "name": "Generalist / Power Moves farm",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "power-moves",
+      "expert-generalist",
+      "skilled-generalist"
+    ],
+    "summary": "Have each Survivor repair their own equivalent of one Generator and escape; all four players can progress together.",
+    "steps": [
+      "Choose the achievement loadout: 0 perks for Power Moves, 2 universal perks for Expert Generalist, or 3 universal perks for Skilled Generalist.",
+      "Put each Survivor on their own Generator so everyone gets enough personal repair progress.",
+      "Finish the match and make sure everyone escapes.",
+      "Repeat for the required number of Trials."
+    ],
+    "notes": [
+      "This is a good group project because all four Survivors can work on the same achievement at the same time."
+    ]
+  },
+  "disturbed-ward-stack": {
+    "name": "Disturbed Ward achievement stack",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "haemophobia",
+      "shock-therapy-map",
+      "item-of-obsession",
+      "left-for-dead"
+    ],
+    "summary": "A dedicated Disturbed Ward match can potentially stack several annoying escape achievements.",
+    "killerPerks": [
+      "Nemesis"
+    ],
+    "steps": [
+      "Load into Disturbed Ward.",
+      "Achievement hunter pallet-stuns the Killer so Nemesis makes them the Obsession.",
+      "The Killer never hits that Survivor.",
+      "Make the special Disturbed Ward Generator the final Generator.",
+      "The other three Survivors die and fully reach the dead state.",
+      "Achievement hunter finishes the last Generator, opens the Exit Gate and leaves last."
+    ],
+    "variants": [
+      {
+        "name": "Four-achievement stack",
+        "text": "This setup is intended to combine Haemophobia + Shock Therapy + Item of Obsession + Left For Dead in one match. If any one of them tracks differently on your platform, split it off instead.",
+        "needsCheck": true
+      }
+    ],
+    "notes": [
+      "The three other Survivors need to be fully dead before the last Survivor completes the final Generator for Left For Dead."
+    ]
+  },
+  "engineer-farm": {
+    "name": "Engineer damaged-gen rotation",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "engineer"
+    ],
+    "summary": "Get one Engineer count from each Generator in the match instead of waiting for random kicks.",
+    "steps": [
+      "Touch a Generator so it has progress.",
+      "Killer damages it.",
+      "Achievement hunter repairs that damaged Generator.",
+      "Move to the next Generator and repeat once per Generator.",
+      "Finish the match normally after the useful Generators have been counted."
+    ]
+  },
+  "injured-gen-farm": {
+    "name": "Injured Generator farm",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "path-to-salvation",
+      "under-pressure",
+      "sorted",
+      "the-show-must-go-on"
+    ],
+    "summary": "Stay injured while working Generators, farm Great Skill Checks, then use the Path to Salvation heal timing.",
+    "survivorPerks": [
+      "Deadline",
+      "Reactive Healing"
+    ],
+    "steps": [
+      "Get injured early and stay injured for most of the Trial.",
+      "Repair Generators while injured and hit Great Skill Checks for Under Pressure.",
+      "Before a Generator finishes, pre-heal to around 90% if you are doing Path to Salvation.",
+      "Finish the Generator, then immediately finish the heal.",
+      "Get injured again and continue until the match is done.",
+      "Escape after spending more than half the Trial injured for Sorted."
+    ],
+    "notes": [
+      "The Path to Salvation part is already used; the bigger stack is where you can save extra matches."
+    ]
+  },
+  "controlled-chase-farm": {
+    "name": "Controlled chase farm",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "a-worthy-opponent",
+      "leapfrog",
+      "whiffing-to-success",
+      "close-shave",
+      "desperate-escape",
+      "with-scars-to-show",
+      "insult-and-injury",
+      "hiding-seeker"
+    ],
+    "summary": "Use shack or another clean pallet/window area to farm a whole block of chase achievements.",
+    "survivorPerks": [
+      "Any Means Necessary"
+    ],
+    "steps": [
+      "Start one long controlled Chase.",
+      "Keep it going for at least 90 seconds.",
+      "Killer deliberately misses attacks before vaults.",
+      "Survivor repeats Pallet and Window vaults while the Chase is active.",
+      "Take a hit and Rushed Vault within 3 seconds when working on Desperate Escape.",
+      "Pallet stun the Killer, then break Chase for Insult and Injury / With Scars to Show.",
+      "Reset useful Pallets with Any Means Necessary.",
+      "For Hiding Seeker, end selected Chases by entering a Locker and having the Killer leave."
+    ],
+    "variants": [
+      {
+        "name": "Close Shave counting",
+        "text": "Use close Basic Attack misses first. Projectile misses can also be tried, but check how generously they register.",
+        "needsCheck": true
+      }
+    ]
+  },
+  "hatch-crawl-stack": {
+    "name": "Hatch crawl stack",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "outrun-evil",
+      "backdoor-escape",
+      "agonizing-escape"
+    ],
+    "summary": "Down the last Survivor beside an open Hatch and have them crawl through it.",
+    "steps": [
+      "Let the other three Survivors leave or die.",
+      "Find/open the Hatch for the final Survivor.",
+      "Killer downs that Survivor right beside it.",
+      "Survivor crawls through the Hatch while in Dying State."
+    ],
+    "variants": [
+      {
+        "name": "Triple count",
+        "text": "The requirements overlap enough that this may award Outrun Evil, Backdoor Escape and Agonizing Escape together. Check platform tracking before calling it guaranteed.",
+        "needsCheck": true
+      }
+    ]
+  },
+  "pallet-rescue-loop": {
+    "name": "Pallet rescue loop",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "rescue-mission"
+    ],
+    "summary": "Keep resetting the same pallet and repeat pallet saves.",
+    "survivorPerks": [
+      "Any Means Necessary"
+    ],
+    "steps": [
+      "Down a Survivor beside a pallet.",
+      "Killer picks them up under the pallet.",
+      "Achievement hunter stuns the Killer for the save.",
+      "Reset the pallet with Any Means Necessary.",
+      "Repeat."
+    ]
+  },
+  "hook-unhook-farm": {
+    "name": "Hook / unhook achievement farm",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "bloodied-hands",
+      "fleet-of-foot",
+      "one-more-step",
+      "taking-one-for-the-team"
+    ],
+    "summary": "Rotate hooks, safe unhooks and protection hits so several hook achievements move together.",
+    "survivorPerks": [
+      "Babysitter",
+      "No Mither / another Broken setup for Bloodied Hands",
+      "Shoulder the Burden (optional)",
+      "Reactive Healing on the rest of the team"
+    ],
+    "steps": [
+      "Achievement hunter stays Broken when working on Bloodied Hands.",
+      "Safely unhook Survivors.",
+      "Babysitter gives the Haste for Fleet of Foot.",
+      "The freshly unhooked Survivor can intentionally take a hit while Endurance is active for One More Step.",
+      "Another Survivor takes protection hits around the unhooked player for Taking One For The Team.",
+      "Reset and rotate hooks."
+    ],
+    "notes": [
+      "Shoulder the Burden can help extend the rotation but is not required for the achievements themselves."
+    ]
+  },
+  "endgame-cleanup": {
+    "name": "Endgame achievement cleanup",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "ever-vigilant",
+      "final-days",
+      "no-one-left-behind",
+      "escaping-the-nightmare",
+      "break-for-it"
+    ],
+    "summary": "Use the last couple minutes after farming instead of immediately leaving.",
+    "survivorPerks": [
+      "Reactive Healing on EVERY Survivor"
+    ],
+    "steps": [
+      "Finish the normal farm and power the Exit Gates.",
+      "Open a Gate when you are ready to start Endgame Collapse.",
+      "Do post-Generator heals for Ever Vigilant.",
+      "Take protection hits during Endgame Collapse for Final Days.",
+      "Hook and rescue someone after the Gates are powered for No One Left Behind.",
+      "Achievement hunters for Break For It leave while Broken.",
+      "Rotate who opens Gates for Escaping the Nightmare."
+    ]
+  },
+  "judgment-farm": {
+    "name": "Judgment achievement round",
+    "side": "both",
+    "featured": false,
+    "achievementIds": [
+      "witness-to-heresy",
+      "under-my-dominion",
+      "sacrilege",
+      "sacrosanct",
+      "above-judgment"
+    ],
+    "summary": "One organised Judgment session can cover most of the new power interactions.",
+    "steps": [
+      "Do the Witness to Heresy aura build if the Killer still needs it.",
+      "Survivors deliberately taunt The Judgment to gain Heresy.",
+      "Down and Exile Heretic Survivors for the Exile-related progress.",
+      "Let the Survivor escape Exile without getting hit by Seeds of Punishment for Above Judgment.",
+      "Line Survivors up at 16m+ for Under my Dominion Divine Light hits."
+    ],
+    "notes": [
+      "Taunting can be done with repeated crouches/gestures close to The Judgment, which makes Heresy easy to coordinate."
+    ]
+  },
+  "grab-farm": {
+    "name": "Grab achievement match",
+    "side": "killer",
+    "featured": false,
+    "achievementIds": [
+      "silent-approach",
+      "quick-draw",
+      "taste-the-darkness",
+      "from-the-deep"
+    ],
+    "summary": "Use one dedicated match to rotate through Generator, Totem, vault and Locker grabs.",
+    "steps": [
+      "Do Generator grabs for Silent Approach.",
+      "Do Totem grabs for Quick Draw.",
+      "Do vault grabs for Taste the Darkness.",
+      "Do Locker grabs for From the Deep.",
+      "Reset the interaction and repeat each one as needed."
+    ],
+    "notes": [
+      "This is mainly useful because coordinated Survivors can keep presenting the exact grab interaction you need."
+    ]
+  },
+  "basement-healing-farm": {
+    "name": "Basement healing farm",
+    "side": "survivor",
+    "featured": false,
+    "achievementIds": [
+      "fearless-healer"
+    ],
+    "summary": "Keep all the hit/heal resets inside basement so every heal is useful progress.",
+    "survivorPerks": [
+      "Reactive Healing on EVERY Survivor",
+      "Boon: Circle of Healing if placement allows",
+      "Botany Knowledge",
+      "Leader on one Survivor"
+    ],
+    "steps": [
+      "Set up the Survivors in basement.",
+      "Killer repeatedly injures them there.",
+      "Heal the required Health States without leaving basement.",
+      "Repeat."
+    ],
+    "notes": [
+      "Can be combined with general healing progress such as Medic if those players still need it."
+    ]
+  }
+}

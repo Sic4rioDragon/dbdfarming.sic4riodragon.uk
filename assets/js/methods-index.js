@@ -1,0 +1,7 @@
+import { loadData, escapeHtml, sideLabel } from './data.js';
+const grid=document.querySelector('#method-grid'); const search=document.querySelector('#method-search');
+let all=[];
+function render(){ const q=search.value.trim().toLowerCase(); const filtered=all.filter(({id,m,names})=>!q||[m.name,m.summary,names].join(' ').toLowerCase().includes(q)); grid.innerHTML=filtered.length?filtered.map(({id,m,names})=>`<a class="card collection-card" href="method.html?id=${encodeURIComponent(id)}"><div class="card-meta"><span>${escapeHtml(sideLabel(m.side))}</span><span>· ${m.achievementIds.length} achievement${m.achievementIds.length===1?'':'s'}</span></div><h2>${escapeHtml(m.name)}</h2><p class="card-requirement">${escapeHtml(m.summary)}</p><div class="tag-list">${m.achievementIds.map(aid=>`<span>${escapeHtml(namesMap[aid]||aid)}</span>`).join('')}</div></a>`).join(''):'<div class="card empty-state">Nothing matched that search.</div>'; }
+let namesMap={};
+loadData().then(({achievements,methods})=>{ namesMap=Object.fromEntries(Object.entries(achievements).map(([id,a])=>[id,a.name])); all=Object.entries(methods).map(([id,m])=>({id,m,names:m.achievementIds.map(aid=>namesMap[aid]||aid).join(' ')})).sort((a,b)=>(b.m.featured===true)-(a.m.featured===true)||a.m.name.localeCompare(b.m.name)); render(); }).catch(err=>grid.innerHTML=`<div class="card empty-state">${escapeHtml(err.message)}</div>`);
+search.addEventListener('input',render);

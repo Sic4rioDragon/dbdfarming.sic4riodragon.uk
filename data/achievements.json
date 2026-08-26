@@ -1,0 +1,707 @@
+{
+  "witness-to-heresy": {
+    "name": "Witness to Heresy",
+    "side": "killer",
+    "killer": "The Judgment",
+    "category": "Aura",
+    "requirement": "See the Obsession's Aura for a total of 300 seconds.",
+    "methodIds": [
+      "witness-to-heresy-build"
+    ],
+    "priority": 1
+  },
+  "dream-demon": {
+    "name": "Dream Demon",
+    "side": "killer",
+    "killer": "The Nightmare",
+    "category": "Killer power",
+    "requirement": "Pull Survivors into the Dream World a total of 200 times.",
+    "methodIds": [
+      "dream-demon-shack-loop"
+    ],
+    "priority": 2
+  },
+  "cripple-them-all": {
+    "name": "Cripple Them All",
+    "side": "killer",
+    "killer": "The Trapper",
+    "category": "Killer power",
+    "requirement": "Grab Survivors directly out of Bear Traps a total of 100 times on PC.",
+    "methodIds": [
+      "trapper-two-trap-loop"
+    ],
+    "priority": 3
+  },
+  "not-today": {
+    "name": "Not Today",
+    "side": "survivor",
+    "category": "Hook",
+    "requirement": "Unhook yourself a total of 50 times.",
+    "methodIds": [
+      "not-today-facecamp"
+    ],
+    "priority": 4
+  },
+  "skilled-huntress": {
+    "name": "Skilled Huntress",
+    "side": "killer",
+    "killer": "The Huntress",
+    "category": "Killer power",
+    "requirement": "Down Survivors with Hatchets from farther than 24 metres.",
+    "methodIds": [
+      "skilled-huntress-boon-range"
+    ],
+    "priority": 5
+  },
+  "fleet-of-foot": {
+    "name": "Fleet of Foot",
+    "side": "survivor",
+    "category": "Haste",
+    "requirement": "Help other Survivors by boosting their Movement speed a total of 50 times.",
+    "methodIds": [
+      "fleet-of-foot-loop"
+    ],
+    "priority": 6
+  },
+  "path-to-salvation": {
+    "name": "Path to Salvation",
+    "side": "survivor",
+    "category": "Healing",
+    "requirement": "Gain a Health State within 10 seconds of a Generator being completed, 5 times.",
+    "methodIds": [
+      "path-to-salvation-loop",
+      "injured-gen-farm"
+    ],
+    "priority": 7
+  },
+  "bless-you": {
+    "name": "Bless You",
+    "side": "survivor",
+    "category": "Totem",
+    "requirement": "Bless Hex Totems a total of 20 times.",
+    "methodIds": [
+      "bless-you-loop"
+    ],
+    "priority": 8
+  },
+  "survivor-adept": {
+    "name": "Survivor Adepts",
+    "side": "survivor",
+    "category": "Adept",
+    "requirement": "Escape using only that Survivor's 3 Unique Perks.",
+    "methodIds": [
+      "survivor-adept-farm"
+    ],
+    "priority": 9
+  },
+  "killer-adept": {
+    "name": "Killer Adepts",
+    "side": "killer",
+    "category": "Adept",
+    "requirement": "Achieve a Merciless Victory using only that Killer's 3 Unique Perks.",
+    "methodIds": [
+      "killer-adept-farm"
+    ],
+    "priority": 10
+  },
+  "bodyguard": {
+    "name": "Bodyguard",
+    "side": "survivor",
+    "category": "Protection",
+    "requirement": "Take a Protection Hit while the Killer is carrying another Survivor a total of 30 times.",
+    "methodIds": [
+      "carry-farm"
+    ],
+    "priority": 20
+  },
+  "heavy-burden": {
+    "name": "Heavy Burden",
+    "side": "killer",
+    "category": "Carry",
+    "requirement": "Hit different Survivors a total of 25 times while carrying another Survivor.",
+    "methodIds": [
+      "carry-farm"
+    ],
+    "priority": 21
+  },
+  "multi-tasker": {
+    "name": "Multi-tasker",
+    "side": "killer",
+    "category": "Carry",
+    "requirement": "While carrying a Survivor, down another Survivor a total of 30 times.",
+    "methodIds": [
+      "carry-farm"
+    ],
+    "priority": 22
+  },
+  "cutting-out": {
+    "name": "Cutting Out",
+    "side": "survivor",
+    "category": "Carry",
+    "requirement": "Wiggle free from the Killer's Grasp a total of 10 times.",
+    "methodIds": [
+      "carry-farm",
+      "trapper-two-trap-loop"
+    ],
+    "priority": 23
+  },
+  "triggered": {
+    "name": "Triggered",
+    "side": "killer",
+    "killer": "The Hag",
+    "category": "Killer power",
+    "requirement": "Cause Survivors to trip Phantasm Traps a total of 300 times on PC.",
+    "methodIds": [
+      "hag-trap-farm"
+    ],
+    "priority": 24
+  },
+  "even-punishment": {
+    "name": "Even Punishment",
+    "side": "killer",
+    "killer": "The Hag",
+    "category": "Killer power",
+    "requirement": "Hit all four Survivors at least once after teleporting to Phantasm Traps in a single Trial.",
+    "methodIds": [
+      "hag-trap-farm"
+    ],
+    "priority": 25
+  },
+  "mad-house": {
+    "name": "Mad House",
+    "side": "killer",
+    "killer": "The Doctor",
+    "category": "Killer power",
+    "requirement": "Get all four Survivors to Madness Tier III in the same Trial.",
+    "methodIds": [
+      "doctor-shock-farm"
+    ],
+    "priority": 26
+  },
+  "shocking-treatment": {
+    "name": "Shocking Treatment",
+    "side": "killer",
+    "killer": "The Doctor",
+    "category": "Killer power",
+    "requirement": "Hit Survivors with Shock Therapy a total of 500 times.",
+    "methodIds": [
+      "doctor-shock-farm"
+    ],
+    "priority": 27
+  },
+  "jump-scares": {
+    "name": "Jump Scares",
+    "side": "killer",
+    "killer": "The Wraith",
+    "category": "Killer power",
+    "requirement": "Land Surprise Attacks after uncloaking.",
+    "methodIds": [
+      "wraith-jump-scare-farm"
+    ],
+    "priority": 28
+  },
+  "totally-vulnerable": {
+    "name": "Totally Vulnerable",
+    "side": "killer",
+    "killer": "The Ghost Face",
+    "category": "Killer power",
+    "requirement": "Down Marked Survivors a total of 50 times.",
+    "methodIds": [
+      "ghostface-mark-farm"
+    ],
+    "priority": 29
+  },
+  "triage": {
+    "name": "Triage",
+    "side": "survivor",
+    "category": "Healing",
+    "requirement": "Heal injured Survivors who come to you from far away without travelling far yourself.",
+    "methodIds": [
+      "triage-station"
+    ],
+    "priority": 30
+  },
+  "resurgence-achievement": {
+    "name": "Resurgence",
+    "side": "survivor",
+    "category": "Healing",
+    "requirement": "Complete healing while at least three Survivors are injured, dying or hooked.",
+    "methodIds": [
+      "healing-achievement-farm"
+    ],
+    "priority": 31
+  },
+  "healthy-obsession": {
+    "name": "Healthy Obsession",
+    "side": "survivor",
+    "category": "Healing",
+    "requirement": "Heal the Obsession for a total of 10 Health States.",
+    "methodIds": [
+      "healing-achievement-farm"
+    ],
+    "priority": 32
+  },
+  "medic": {
+    "name": "Medic",
+    "side": "survivor",
+    "category": "Healing",
+    "requirement": "Heal other Survivors for a total of 100 Health States.",
+    "methodIds": [
+      "healing-achievement-farm"
+    ],
+    "priority": 33
+  },
+  "second-act": {
+    "name": "Second Act",
+    "side": "survivor",
+    "category": "Healing",
+    "requirement": "Recover from the Dying State with help repeatedly.",
+    "methodIds": [
+      "healing-achievement-farm"
+    ],
+    "priority": 34
+  },
+  "honour-the-bloodline": {
+    "name": "Honour the Bloodline",
+    "side": "survivor",
+    "category": "Aura",
+    "requirement": "Reveal the Killer's Aura for 60 seconds in a single Trial.",
+    "methodIds": [
+      "aura-farm"
+    ],
+    "priority": 35
+  },
+  "lifting-the-fog": {
+    "name": "Lifting the Fog",
+    "side": "survivor",
+    "category": "Aura",
+    "requirement": "Reveal the Killer's Aura repeatedly.",
+    "methodIds": [
+      "aura-farm"
+    ],
+    "priority": 36
+  },
+  "working-overtime": {
+    "name": "Working Overtime",
+    "side": "survivor",
+    "category": "Generator",
+    "requirement": "Spend 300 seconds repairing Generators in a single Trial.",
+    "methodIds": [
+      "working-overtime-farm"
+    ],
+    "priority": 37
+  },
+  "power-moves": {
+    "name": "Power Moves",
+    "side": "survivor",
+    "category": "Generator",
+    "requirement": "Escape after repairing the equivalent of 1 Generator with no Perks equipped, 8 times.",
+    "methodIds": [
+      "generalist-farm"
+    ],
+    "priority": 38
+  },
+  "expert-generalist": {
+    "name": "Expert Generalist",
+    "side": "survivor",
+    "category": "Generator",
+    "requirement": "Escape after repairing the equivalent of 1 Generator with only 2 universal Perks equipped, 8 times.",
+    "methodIds": [
+      "generalist-farm"
+    ],
+    "priority": 39
+  },
+  "skilled-generalist": {
+    "name": "Skilled Generalist",
+    "side": "survivor",
+    "category": "Generator",
+    "requirement": "Escape after repairing the equivalent of 1 Generator with only 3 universal Perks equipped, 8 times.",
+    "methodIds": [
+      "generalist-farm"
+    ],
+    "priority": 40
+  },
+  "item-of-obsession": {
+    "name": "Item of Obsession",
+    "side": "survivor",
+    "category": "Escape",
+    "requirement": "As the Obsession, escape last without being hit.",
+    "methodIds": [
+      "disturbed-ward-stack"
+    ],
+    "priority": 41
+  },
+  "haemophobia": {
+    "name": "Haemophobia",
+    "side": "survivor",
+    "category": "Map",
+    "requirement": "Escape Disturbed Ward without being injured.",
+    "methodIds": [
+      "disturbed-ward-stack"
+    ],
+    "priority": 42
+  },
+  "shock-therapy-map": {
+    "name": "Shock Therapy",
+    "side": "survivor",
+    "category": "Map",
+    "requirement": "Repair the special Generator on Disturbed Ward and escape.",
+    "methodIds": [
+      "disturbed-ward-stack"
+    ],
+    "priority": 43
+  },
+  "left-for-dead": {
+    "name": "Left For Dead",
+    "side": "survivor",
+    "category": "Escape",
+    "requirement": "As the last Survivor alive, finish the last Generator and escape through an Exit Gate.",
+    "methodIds": [
+      "disturbed-ward-stack"
+    ],
+    "priority": 44
+  },
+  "hero-of-wallachia": {
+    "name": "Hero of Wallachia",
+    "side": "survivor",
+    "category": "Pallet",
+    "requirement": "Stun the Killer with Pallets while holding a qualifying item.",
+    "methodIds": [
+      "bless-you-loop"
+    ],
+    "priority": 45
+  },
+  "engineer": {
+    "name": "Engineer",
+    "side": "survivor",
+    "category": "Generator",
+    "requirement": "Repair 50 different Generators after they have been damaged by the Killer.",
+    "methodIds": [
+      "engineer-farm"
+    ],
+    "priority": 46
+  },
+  "under-pressure": {
+    "name": "Under Pressure",
+    "side": "survivor",
+    "category": "Generator",
+    "requirement": "Hit Great Skill Checks while injured.",
+    "methodIds": [
+      "injured-gen-farm"
+    ],
+    "priority": 47
+  },
+  "sorted": {
+    "name": "Sorted",
+    "side": "survivor",
+    "category": "Escape",
+    "requirement": "Spend more than half of a Trial injured and escape.",
+    "methodIds": [
+      "injured-gen-farm"
+    ],
+    "priority": 48
+  },
+  "the-show-must-go-on": {
+    "name": "The Show Must Go On",
+    "side": "survivor",
+    "category": "Generator",
+    "requirement": "Complete Generator progress while injured.",
+    "methodIds": [
+      "injured-gen-farm"
+    ],
+    "priority": 49
+  },
+  "a-worthy-opponent": {
+    "name": "A Worthy Opponent",
+    "side": "survivor",
+    "category": "Chase",
+    "requirement": "Spend 90 seconds in Chase in one Trial.",
+    "methodIds": [
+      "controlled-chase-farm"
+    ],
+    "priority": 50
+  },
+  "leapfrog": {
+    "name": "Leapfrog",
+    "side": "survivor",
+    "category": "Chase",
+    "requirement": "Vault Pallets or Windows during Chase repeatedly.",
+    "methodIds": [
+      "controlled-chase-farm"
+    ],
+    "priority": 51
+  },
+  "whiffing-to-success": {
+    "name": "Whiffing to Success",
+    "side": "survivor",
+    "category": "Chase",
+    "requirement": "Make the Killer miss an attack before you vault.",
+    "methodIds": [
+      "controlled-chase-farm"
+    ],
+    "priority": 52
+  },
+  "close-shave": {
+    "name": "Close Shave",
+    "side": "survivor",
+    "category": "Chase",
+    "requirement": "Dodge Basic Attacks or Projectiles from Killers a total of 100 times.",
+    "methodIds": [
+      "controlled-chase-farm",
+      "skilled-huntress-boon-range"
+    ],
+    "priority": 53
+  },
+  "desperate-escape": {
+    "name": "Desperate Escape",
+    "side": "survivor",
+    "category": "Chase",
+    "requirement": "Perform a Rushed Vault within 3 seconds of getting hit, 15 times.",
+    "methodIds": [
+      "controlled-chase-farm"
+    ],
+    "priority": 54
+  },
+  "with-scars-to-show": {
+    "name": "With Scars to Show",
+    "side": "survivor",
+    "category": "Chase",
+    "requirement": "Become injured during a Chase and then escape the Chase repeatedly.",
+    "methodIds": [
+      "controlled-chase-farm"
+    ],
+    "priority": 55
+  },
+  "insult-and-injury": {
+    "name": "Insult and Injury",
+    "side": "survivor",
+    "category": "Pallet",
+    "requirement": "Pallet stun the Killer and escape the Chase repeatedly.",
+    "methodIds": [
+      "controlled-chase-farm"
+    ],
+    "priority": 56
+  },
+  "hiding-seeker": {
+    "name": "Hiding Seeker",
+    "side": "survivor",
+    "category": "Chase",
+    "requirement": "End Chases by hiding in a Locker repeatedly.",
+    "methodIds": [
+      "controlled-chase-farm"
+    ],
+    "priority": 57
+  },
+  "outrun-evil": {
+    "name": "Outrun Evil",
+    "side": "survivor",
+    "category": "Hatch",
+    "requirement": "Crawl out through the Hatch.",
+    "methodIds": [
+      "hatch-crawl-stack"
+    ],
+    "priority": 58
+  },
+  "backdoor-escape": {
+    "name": "Backdoor Escape",
+    "side": "survivor",
+    "category": "Hatch",
+    "requirement": "Escape through the Hatch.",
+    "methodIds": [
+      "hatch-crawl-stack"
+    ],
+    "priority": 59
+  },
+  "agonizing-escape": {
+    "name": "Agonizing Escape",
+    "side": "survivor",
+    "category": "Hatch",
+    "requirement": "Crawl out of a Trial.",
+    "methodIds": [
+      "hatch-crawl-stack"
+    ],
+    "priority": 60
+  },
+  "rescue-mission": {
+    "name": "Rescue Mission",
+    "side": "survivor",
+    "category": "Pallet",
+    "requirement": "Rescue Survivors from the Killer's Grasp by stunning the Killer with a Pallet, 5 times.",
+    "methodIds": [
+      "pallet-rescue-loop"
+    ],
+    "priority": 61
+  },
+  "bloodied-hands": {
+    "name": "Bloodied Hands",
+    "side": "survivor",
+    "category": "Hook",
+    "requirement": "Safely unhook Survivors while suffering from Broken, 10 times.",
+    "methodIds": [
+      "hook-unhook-farm"
+    ],
+    "priority": 62
+  },
+  "one-more-step": {
+    "name": "One More Step",
+    "side": "survivor",
+    "category": "Hook",
+    "requirement": "Take a hit while protected by Endurance, 10 times.",
+    "methodIds": [
+      "hook-unhook-farm"
+    ],
+    "priority": 63
+  },
+  "taking-one-for-the-team": {
+    "name": "Taking One For The Team",
+    "side": "survivor",
+    "category": "Protection",
+    "requirement": "Take Protection Hits around recently unhooked Survivors repeatedly.",
+    "methodIds": [
+      "hook-unhook-farm"
+    ],
+    "priority": 64
+  },
+  "ever-vigilant": {
+    "name": "Ever Vigilant",
+    "side": "survivor",
+    "category": "Endgame",
+    "requirement": "After all Generators are repaired, complete Healing actions a total of 20 times.",
+    "methodIds": [
+      "endgame-cleanup"
+    ],
+    "priority": 65
+  },
+  "final-days": {
+    "name": "Final Days",
+    "side": "survivor",
+    "category": "Endgame",
+    "requirement": "Take Protection Hits during the Endgame Collapse.",
+    "methodIds": [
+      "endgame-cleanup"
+    ],
+    "priority": 66
+  },
+  "no-one-left-behind": {
+    "name": "No One Left Behind",
+    "side": "survivor",
+    "category": "Endgame",
+    "requirement": "Rescue another Survivor from a Hook after the Exit Gates have been powered.",
+    "methodIds": [
+      "endgame-cleanup"
+    ],
+    "priority": 67
+  },
+  "escaping-the-nightmare": {
+    "name": "Escaping the Nightmare",
+    "side": "survivor",
+    "category": "Endgame",
+    "requirement": "Open Exit Gates repeatedly.",
+    "methodIds": [
+      "endgame-cleanup"
+    ],
+    "priority": 68
+  },
+  "break-for-it": {
+    "name": "Break For It",
+    "side": "survivor",
+    "category": "Endgame",
+    "requirement": "Escape Trials while suffering from Broken.",
+    "methodIds": [
+      "endgame-cleanup"
+    ],
+    "priority": 69
+  },
+  "under-my-dominion": {
+    "name": "Under my Dominion",
+    "side": "killer",
+    "killer": "The Judgment",
+    "category": "Killer power",
+    "requirement": "Hit 15 Survivors with Divine Light from at least 16 metres away.",
+    "methodIds": [
+      "judgment-farm"
+    ],
+    "priority": 70
+  },
+  "sacrilege": {
+    "name": "Sacrilege",
+    "side": "survivor",
+    "category": "Judgment",
+    "requirement": "Gain Heresy through The Judgment's power interactions.",
+    "methodIds": [
+      "judgment-farm"
+    ],
+    "priority": 71
+  },
+  "sacrosanct": {
+    "name": "Sacrosanct",
+    "side": "killer",
+    "killer": "The Judgment",
+    "category": "Judgment",
+    "requirement": "Send Heretic Survivors to Exile.",
+    "methodIds": [
+      "judgment-farm"
+    ],
+    "priority": 72
+  },
+  "above-judgment": {
+    "name": "Above Judgment",
+    "side": "survivor",
+    "category": "Judgment",
+    "requirement": "Escape Exile without being hit by Seeds of Punishment.",
+    "methodIds": [
+      "judgment-farm"
+    ],
+    "priority": 73
+  },
+  "silent-approach": {
+    "name": "Silent Approach",
+    "side": "killer",
+    "category": "Grab",
+    "requirement": "Grab Survivors from Generator interactions repeatedly.",
+    "methodIds": [
+      "grab-farm"
+    ],
+    "priority": 74
+  },
+  "quick-draw": {
+    "name": "Quick Draw",
+    "side": "killer",
+    "category": "Grab",
+    "requirement": "Grab Survivors interacting with Totems a total of 10 times.",
+    "methodIds": [
+      "grab-farm"
+    ],
+    "priority": 75
+  },
+  "taste-the-darkness": {
+    "name": "Taste the Darkness",
+    "side": "killer",
+    "category": "Grab",
+    "requirement": "Interrupt and grab Survivors mid-vault a total of 10 times.",
+    "methodIds": [
+      "grab-farm"
+    ],
+    "priority": 76
+  },
+  "from-the-deep": {
+    "name": "From the Deep",
+    "side": "killer",
+    "category": "Grab",
+    "requirement": "Find and grab Survivors hiding inside Lockers a total of 25 times.",
+    "methodIds": [
+      "grab-farm"
+    ],
+    "priority": 77
+  },
+  "fearless-healer": {
+    "name": "Fearless Healer",
+    "side": "survivor",
+    "category": "Healing",
+    "requirement": "Heal while inside the Basement repeatedly.",
+    "methodIds": [
+      "basement-healing-farm"
+    ],
+    "priority": 78
+  }
+}
