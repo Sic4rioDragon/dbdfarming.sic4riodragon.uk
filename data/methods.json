@@ -1,25 +1,57 @@
 {
   "witness-to-heresy-build": {
-    "name": "Witness to Heresy build",
+    "name": "Witness to Heresy farm",
     "side": "killer",
     "featured": true,
     "achievementIds": [
       "witness-to-heresy"
     ],
-    "summary": "Use constant Obsession swaps and extra aura reads instead of waiting on Celestial Witness alone.",
-    "killerPerks": [
-      "Celestial Witness",
-      "Lethal Pursuer",
-      "Friends 'Til the End",
-      "Nemesis"
-    ],
+    "summary": "There are a few very easy ways to hold the Obsession's aura long enough to finish the full 300 seconds.",
     "steps": [
-      "Run the four-perk build.",
-      "Use Nemesis and Friends 'Til the End to keep moving the Obsession around while Celestial Witness gives more reads.",
-      "Keep the match going until the 300 seconds are finished."
+      "Pick whichever option below is easiest for the group.",
+      "Keep the Obsession's aura visible until the achievement reaches 300 seconds."
+    ],
+    "variants": [
+      {
+        "name": "Mettle of Man — easiest organized option",
+        "text": "Have the Survivors bring Mettle of Man so whoever becomes the Obsession can use it. Trigger Mettle of Man with 3 Protection Hits, heal the Obsession back to full health, then keep them more than 16 metres from the Killer. Their aura stays revealed while the condition holds, so you can basically wait out the 300 seconds.",
+        "perks": [
+          "Mettle of Man on the Survivors"
+        ],
+        "steps": [
+          "Get 3 Protection Hits on the Obsession to activate Mettle of Man.",
+          "Heal the Obsession back to full health.",
+          "Move the Obsession more than 16 metres away from the Killer.",
+          "Do not down the Obsession; just keep the aura visible until 300 seconds is finished."
+        ]
+      },
+      {
+        "name": "Scratched Mirror Shape",
+        "text": "Play The Shape with Scratched Mirror. Keep the Obsession within 32 metres and hold Stalk so their aura stays visible. Since Witness to Heresy itself is not restricted to The Judgment, this can finish the achievement without using the Judgment perk build.",
+        "addons": [
+          "Scratched Mirror"
+        ],
+        "steps": [
+          "Find the Obsession.",
+          "Keep them within 32 metres of The Shape.",
+          "Hold Stalk to continuously reveal their aura.",
+          "Keep going until the achievement reaches 300 seconds."
+        ]
+      },
+      {
+        "name": "The Judgment perk build",
+        "text": "The original method still works if you want to do it while playing The Judgment: Celestial Witness, Lethal Pursuer, Friends 'Til the End and Nemesis. It is more active and slower than simply holding a continuous aura read, but it does not need Scratched Mirror.",
+        "perks": [
+          "Celestial Witness",
+          "Lethal Pursuer",
+          "Friends 'Til the End",
+          "Nemesis"
+        ]
+      }
     ],
     "notes": [
-      "This is one of the methods we already use."
+      "Mettle of Man also makes the Obsession more likely to start on one of the Survivors using it.",
+      "Mettle of Man currently activates after the third Protection Hit. After healing back to full, the Survivor's aura is revealed to the Killer while they are farther than 12/14/16 metres away depending on perk tier."
     ]
   },
   "dream-demon-shack-loop": {
@@ -253,6 +285,7 @@
     ],
     "survivorPerks": [
       "Reactive Healing on EVERY Survivor",
+      "Mettle of Man on Survivors taking repeated Protection Hits",
       "Boon: Circle of Healing on one Survivor",
       "Leader on one Survivor",
       "Botany Knowledge / other healing speed perks spread around the team"
@@ -267,7 +300,8 @@
       "Reset and repeat."
     ],
     "notes": [
-      "Only one Survivor needs Leader. Agitation is more useful here than Mad Grit because everyone is cooperating and it helps reposition the carry faster."
+      "Only one Survivor needs Leader. Agitation is more useful here than Mad Grit because everyone is cooperating and it helps reposition the carry faster.",
+      "Mettle of Man is very useful for the protection-hit rotation: after the third Protection Hit it shields the next hit that would put that Survivor into the Dying State, letting the loop squeeze in another hit before a reset."
     ]
   },
   "hag-trap-farm": {
@@ -655,7 +689,8 @@
       "Babysitter",
       "No Mither / another Broken setup for Bloodied Hands",
       "Shoulder the Burden (optional)",
-      "Reactive Healing on the rest of the team"
+      "Reactive Healing on the rest of the team",
+      "Mettle of Man for Survivors farming repeated Protection Hits"
     ],
     "steps": [
       "Achievement hunter stays Broken when working on Bloodied Hands.",
@@ -666,7 +701,8 @@
       "Reset and rotate hooks."
     ],
     "notes": [
-      "Shoulder the Burden can help extend the rotation but is not required for the achievements themselves."
+      "Shoulder the Burden can help extend the rotation but is not required for the achievements themselves.",
+      "Mettle of Man is useful on whoever is taking the protection hits. After the third Protection Hit it can absorb the next hit that would normally down them, which gives the group another protection-hit opportunity before resetting."
     ]
   },
   "endgame-cleanup": {

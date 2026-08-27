@@ -2,7 +2,6 @@
   "witness-to-heresy": {
     "name": "Witness to Heresy",
     "side": "killer",
-    "killer": "The Judgment",
     "category": "Aura",
     "requirement": "See the Obsession's Aura for a total of 300 seconds.",
     "methodIds": [
