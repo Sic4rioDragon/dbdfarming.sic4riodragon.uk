@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dbdfarming.sic4riodragon.uk/sitemap.xml
